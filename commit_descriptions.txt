@@ -35,3 +35,9 @@ For this created categories_screen file which will give a screen consist of a ca
 For displaying the categories in grid layout we have used the GridView class which takes 2 arguments children and gridDelegate.
 The children argument simply takes the children which we want to show in each grid and in the gridDelegate argument we have to specify how will the grids will display on screen.
 For specifying it we have used the SliverGridDelegateWithFixedCrossAxisCount class which takes 4 arguments which specify the structure of grid. 
+
+
+
+Commit 2:
+Created a datatype for storing data in gridItem i.e. category.dart, dummy data using model, speartate widget for single item to pass to gridview and done with 
+the UI of categories_screen.
