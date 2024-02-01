@@ -1,0 +1,5 @@
+Commit 1:
+Started with the Meals application.
+Intially written the code for main.dart file to display any text on sceen.
+Along with it also added a code for the theme for this application which will be used by entire application.
+Used the lato texttheme of google fonts for the texttheme by importing the google fonts package.
