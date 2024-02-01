@@ -41,3 +41,7 @@ For specifying it we have used the SliverGridDelegateWithFixedCrossAxisCount cla
 Commit 2:
 Created a datatype for storing data in gridItem i.e. category.dart, dummy data using model, speartate widget for single item to pass to gridview and done with 
 the UI of categories_screen.
+
+Commit 3:
+Made the edges of gridItem circular and also added a splash color which highlight on tap.
+
