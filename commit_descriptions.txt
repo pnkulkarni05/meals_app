@@ -3,3 +3,35 @@ Started with the Meals application.
 Intially written the code for main.dart file to display any text on sceen.
 Along with it also added a code for the theme for this application which will be used by entire application.
 Used the lato texttheme of google fonts for the texttheme by importing the google fonts package.
+
+Commit 2:
+Created a speartate file for the scrren which will display the different categories in grid layout.
+For this created categories_screen file which will give a screen consist of a categories in the grid layout.
+
+ GridView(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,              //Specify how many grids to present in each row
+            childAspectRatio: 3 / 2,        //childAspectRatio is the ratio in which the grids should place.
+            crossAxisSpacing: 16,           //crossAxisSpacing is the horizontal spacing between grids. 
+            mainAxisSpacing: 16),           //mainAxisSpacing is the vertical spacing between grids.
+        children: const [
+          Text(
+            "1",
+            style: TextStyle(color: Colors.white),
+          ),
+          Text(
+            "2",
+            style: TextStyle(color: Colors.white),
+          ),
+          Text(
+            "3",
+            style: TextStyle(color: Colors.white),
+          ),
+          
+        ],
+      ),
+
+
+For displaying the categories in grid layout we have used the GridView class which takes 2 arguments children and gridDelegate.
+The children argument simply takes the children which we want to show in each grid and in the gridDelegate argument we have to specify how will the grids will display on screen.
+For specifying it we have used the SliverGridDelegateWithFixedCrossAxisCount class which takes 4 arguments which specify the structure of grid. 
